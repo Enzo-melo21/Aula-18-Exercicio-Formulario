@@ -12,22 +12,22 @@
          <legend>Dados Pessoais</legend>
 
          <label for="nome">Nome Completo</label> <br>
-         <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo"><br>
+         <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required><br> 
          
          <label for="email">Email</label><br>
-         <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com"><br>
+         <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required><br>
 
-         <label for="Telefone">Telefone (Formato (XX)XXXXX-XXXX)</label><br>
-         <input type="tel" id="telefone" name="telefone" placeholder="(11)91234-5678"><br>
+         <label for="telefone">Telefone (xx)xxxx-xxx</label><br>
+         <input type="tel" id="telefone" name="telefone" placeholder="(11)91234-5678" required ><br>
 
-         <label for="senhe">Crie uma senha: </label><br>
-         <input type="password" id="senha" name="senha" placeholder="Digite sua senha"><br>
+         <label for="senha">Crie uma senha</label><br>
+         <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required ><br>
 
          <label for="idade">Idade</label><br>
-         <input type="number" id="idade" name="idade" placeholder="Sua idade"><br>
+         <input type="number" id="idade" name="idade" placeholder="Sua idade" required ><br>
 
          <label for="estado">Estado de entrega</label><br>
-        <select name="estado" id="estado">
+        <select name="estado" id="estado" required>
             <option>--Selecione seu estado--</option>
             <option>SP</option>
             <option>RJ</option>
@@ -39,7 +39,7 @@
             </select> 
         <br><br>
         <label for="cnh">Envie uma foto da sua CNH</label><br>        
-        <input type="file" id="cnh" name="cnh"><br>
+        <input type="file" id="cnh" name="cnh" required><br>
 
         </fieldset> 
         <!--Escolha do Carro-->
